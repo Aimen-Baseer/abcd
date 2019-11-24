@@ -1,0 +1,26 @@
+{
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"auth": {
+		"cognito970fe0bb": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"myaws": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"storage": {
+		"Pictures": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

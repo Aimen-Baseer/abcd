@@ -1,0 +1,20 @@
+{
+    "appName": "myaws",
+    "roleName": "pinpointLambdaRole1ae3d9ac",
+    "cloudWatchPolicyName": "cloudWatchPolicy1ae3d9ac",
+    "pinpointPolicyName": "pinpointPolicy1ae3d9ac",
+    "authPolicyName": "pinpoint_amplify_1ae3d9ac",
+    "unauthPolicyName": "pinpoint_amplify_1ae3d9ac",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
